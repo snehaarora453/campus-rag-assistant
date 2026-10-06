@@ -1,0 +1,23 @@
+{
+  "description": "Labeled QA pairs for evaluating retrieval accuracy. Each entry names the source file that should be retrieved for the question to count as a correct hit. Adjust these to match the actual notes you ingest before running evaluate.py.",
+  "test_cases": [
+    {
+      "id": "q1",
+      "question": "What is the time complexity of binary search?",
+      "expected_source": "algorithms_notes.md",
+      "reference_answer": "O(log n)"
+    },
+    {
+      "id": "q2",
+      "question": "What are the ACID properties in database transactions?",
+      "expected_source": "databases_notes.md",
+      "reference_answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+      "id": "q3",
+      "question": "What is the difference between TCP and UDP?",
+      "expected_source": "networking_notes.md",
+      "reference_answer": "TCP is connection-oriented and reliable; UDP is connectionless and faster but unreliable"
+    }
+  ]
+}

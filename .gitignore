@@ -1,0 +1,25 @@
+# Environment variables
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ChromaDB generated database
+data/chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Python cache
+.pytest_cache/
